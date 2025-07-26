@@ -28,7 +28,8 @@ body {
   border: none;
   cursor: pointer;
 }
-section {
+section,
+.footer-section {
   margin-top: 100px;
 }
 .section-content {
@@ -54,6 +55,14 @@ section {
   font-weight: 400;
   line-height: 20px; /* 166.667% */
   margin: 0 auto;
+}
+.special {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 /* header styles */
 .header {
@@ -176,4 +185,118 @@ section {
   font-style: normal;
   font-weight: 600;
   line-height: 20px; /* 145.833% */
+}
+/* deal-section styles */
+.deal-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.deal-section .deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 65px;
+}
+.deal .deal-content {
+}
+.deal-content .deal-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.deal .deal-img {
+  width: 238px;
+  height: 315px;
+}
+.deal-img img {
+  width: 100%;
+  height: 100%;
+}
+/* instagram styles */
+.insta {
+}
+.insta .insta-img {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
+}
+.insta-img .image {
+  width: 256px;
+  height: 297px;
+}
+.image img {
+  width: 100%;
+}
+/* copon section styles */
+.copon-section {
+}
+.copon-section .copon {
+  background-image: url(../images/Rectangle\ 9.png);
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.copon .form-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 525px;
+  margin: 0 auto;
+}
+.form-container input[type="email"] {
+  flex-grow: 1;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  padding: 14px 30px;
+  border: none;
+}
+/* footer section styles */
+.footer-section {
+  background: #111010;
+}
+.footer-section .footer {
+  height: 332px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-content {
+}
+.footer-content .footer-title {
+  color: #fff;
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-title .special1 {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-content .footer-desc1 {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+.footer-content .footer-description {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
 }
